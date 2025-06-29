@@ -28,4 +28,5 @@ void main() {
   //clear map
   toppings.clear();
   print(toppings); // output => {}
+
 }

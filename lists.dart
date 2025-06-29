@@ -39,4 +39,19 @@ void main(){
     //remove value from list at specific index
     mixedList.removeAt(1);
     print(mixedList);// output => [1, 3, "Bero", false]
+
+    //remove last value from list
+    mixedList.removeLast();
+    print(mixedList);// output => [1, 3, "Bero"]
+
+    //remove all values from list
+    mixedList.clear();
+    print(mixedList);// output => []
+
+    //check if list is empty
+    print(mixedList.isEmpty);// output => true
+
+    //check if list is not empty
+    print(mixedList.isNotEmpty);// output => false
+
 }

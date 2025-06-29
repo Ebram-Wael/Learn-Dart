@@ -19,4 +19,23 @@ void main(){
   //dynamic
   dynamic myVariable = "Hello"; 
   print("Dynamic: $myVariable"); // output => Dynamic: Hello
+
+  //Null
+  var myNullVariable = null; 
+  print("Null: $myNullVariable"); // output => Null: null
+
+  //const
+  const myConstVariable = "Constant"; 
+  print("Const: $myConstVariable"); // output => Const: Constant
+
+  //final
+  final myFinalVariable = "Final"; 
+  print("Final: $myFinalVariable"); // output => Final: Final
+
+  //late
+  late String myLateVariable; 
+  myLateVariable = "Late"; 
+  print("Late: $myLateVariable"); // output => Late: Late
+
+
 }
