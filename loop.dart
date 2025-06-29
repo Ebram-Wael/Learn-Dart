@@ -17,4 +17,15 @@ void main() {
     print(i);
     i++;
   } // output => 0 1 2 3 4 5 6 7 8 9
+
+  //do while loop
+  var p = 0;
+  do {
+    print(p); 
+    p++;
+  } while (p < 10); // output => 0 1 2 3 4 5 6 7 8 9
+
+  //for each loop
+  var numbers = [1, 2, 3, 4, 5];
+  numbers.forEach((number) => print(number)); // output => 1 2 3 4 5
 }
